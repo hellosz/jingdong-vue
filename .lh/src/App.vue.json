@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1712196445398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712196452039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,6 @@\n \n   <RouterView />\n </template>\n \n+<style>\n </style>\n"
+                },
+                {
+                    "date": 1712196477626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,17 +4,10 @@\n </script>\n \n <template>\n   <header>\n-    <img alt=\"Vue logo\" class=\"logo\" src=\"@/assets/logo.svg\" width=\"125\" height=\"125\" />\n-\n-    <div class=\"wrapper\">\n-      <HelloWorld msg=\"You did it!\" />\n-\n-      <nav>\n-        <RouterLink to=\"/\">Home</RouterLink>\n-        <RouterLink to=\"/about\">About</RouterLink>\n-      </nav>\n+    <div>\n+      hello world\n     </div>\n   </header>\n \n   <RouterView />\n"
+                },
+                {
+                    "date": 1712196483077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,7 @@\n     <div>\n       hello world\n     </div>\n   </header>\n-\n-  <RouterView />\n </template>\n \n <style></style>\n"
+                }
+            ],
+            "date": 1712196445398,
+            "name": "Commit-0",
+            "content": "<script setup>\nimport { RouterLink, RouterView } from 'vue-router'\nimport HelloWorld from './components/HelloWorld.vue'\n</script>\n\n<template>\n  <header>\n    <img alt=\"Vue logo\" class=\"logo\" src=\"@/assets/logo.svg\" width=\"125\" height=\"125\" />\n\n    <div class=\"wrapper\">\n      <HelloWorld msg=\"You did it!\" />\n\n      <nav>\n        <RouterLink to=\"/\">Home</RouterLink>\n        <RouterLink to=\"/about\">About</RouterLink>\n      </nav>\n    </div>\n  </header>\n\n  <RouterView />\n</template>\n\n</style>\n"
+        }
+    ]
+}
