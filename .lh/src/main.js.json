@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1712196598231,
@@ -20,6 +20,10 @@
                 {
                     "date": 1712196766271,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n import store from './store'\n \n const app = createApp(App)\n \n-app.use(router).use(store).amount('#app')\n+app.use(router).use(store).mount('#app')\n"
+                },
+                {
+                    "date": 1712200671579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { createApp } from 'vue'\n import App from './App.vue'\n import router from './router'\n import store from './store'\n-\n+import './assets/base.scss'\n const app = createApp(App)\n \n app.use(router).use(store).mount('#app')\n"
                 }
             ],
             "date": 1712196598231,

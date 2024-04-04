@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1712196586940,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712200319716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,8 @@\n-import {createStore} from 'vuex'\n+import { createStore } from 'vuex'\n \n export default createStore({\n-    state: {\n-\n-    },\n-    getters: {\n-\n-    },\n-    mutations: {\n-\n-    },\n-    action: {\n-\n-    }\n\\ No newline at end of file\n-})\n+  state: {},\n+  getters: {},\n+  mutations: {},\n+  action: {}\n+})\n"
                 }
             ],
             "date": 1712196586940,

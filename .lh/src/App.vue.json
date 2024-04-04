@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1712196445398,
@@ -20,6 +20,10 @@
                 {
                     "date": 1712196483077,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,7 @@\n     <div>\n       hello world\n     </div>\n   </header>\n-\n-  <RouterView />\n </template>\n \n <style></style>\n"
+                },
+                {
+                    "date": 1712200385514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-<script setup>\n-</script>\n+<script setup></script>\n \n <template>\n   <header>\n     <div>\n"
                 }
             ],
             "date": 1712196445398,
